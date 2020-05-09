@@ -25,8 +25,8 @@
   </head>
   <body>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">News</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">News</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -40,17 +40,16 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ml-auto">
+          <!-- margin left - auto -->
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -58,27 +57,84 @@
     <!-- nav -->
 
     <!-- header -->
-    <div>
+    <div class="pl-5 pt-2">
+      <!-- padding left 5 && padding top 2 -->
       <h1>Awesome Stories</h1>
     </div>
     <!-- header -->
 
     <!-- body -->
     <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="https://tinyurl.com/y8flkj94" alt="a nice museum" />
+      <div class="pb-5 mb-5">
+        <!-- row 1 -->
+        <div class="row pb-5">
+          <div class="col-sm-4">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/01/21/22/40/castle-1998435_960_720.jpg"
+              class="img-fluid"
+              alt="a nice museum"
+            />
+          </div>
+          <div class="col-sm-8">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Class aptent taciti sociosqu ad litora torquent per conubia
+              nostra, per inceptos himenaeos. Sed et felis nec mauris luctus
+              egestas ac quis risus. Praesent neque quam, viverra a lobortis at,
+              tempus in erat. Nunc quam nunc, varius facilisis eros quis,
+              gravida posuere risus. Sed nisl ipsum, imperdiet et consectetur
+              et, luctus eu velit. Vestibulum eu venenatis ante. Aliquam
+              vestibulum leo non ante accumsan, eu dapibus ipsum luctus. Nulla
+              hendrerit consequat sem eget eleifend. Phasellus pretium urna
+              felis, in fringilla sapien iaculis non. Praesent elementum, orci
+              quis eleifend aliquet, purus lectus tincidunt ligula, eu
+              pellentesque velit libero fermentum enim.
+            </p>
+          </div>
         </div>
-        <div class="col-sm-8">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+        <!-- row 1 -->
+
+        <!-- row 2 -->
+        <div class="row">
+          <div class="col-sm-4">
+            <img
+              src="https://cdn.pixabay.com/photo/2016/01/09/18/28/old-1130743_960_720.jpg"
+              class="img-fluid"
+              alt="a nice museum"
+            />
+          </div>
+          <div class="col-sm-8">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Class aptent taciti sociosqu ad litora torquent per conubia
+              nostra, per inceptos himenaeos. Sed et felis nec mauris luctus
+              egestas ac quis risus. Praesent neque quam, viverra a lobortis at,
+              tempus in erat. Nunc quam nunc, varius facilisis eros quis,
+              gravida posuere risus. Sed nisl ipsum, imperdiet et consectetur
+              et, luctus eu velit. Vestibulum eu venenatis ante. Aliquam
+              vestibulum leo non ante accumsan, eu dapibus ipsum luctus. Nulla
+              hendrerit consequat sem eget eleifend. Phasellus pretium urna
+              felis, in fringilla sapien iaculis non. Praesent elementum, orci
+              quis eleifend aliquet, purus lectus tincidunt ligula, eu
+              pellentesque velit libero fermentum enim.
+            </p>
+          </div>
         </div>
+        <!-- row 2 -->
       </div>
     </div>
     <!-- body -->
+
+    <!-- footer -->
+    <nav class="navbar navbar-dark bg-dark">
+      <img
+        src="https://cdn3.iconfinder.com/data/icons/social-icons-hex-grey/512/GITHUB-512.png"
+        class="mx-auto d-block"
+        height="60px"
+        alt="github logo"
+      />
+    </nav>
+    <!-- footer -->
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
